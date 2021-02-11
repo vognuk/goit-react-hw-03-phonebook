@@ -1,0 +1,18 @@
+.list {
+}
+
+.item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button {
+  margin-left: 10px;
+  width: 60px;
+  height: 20px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}

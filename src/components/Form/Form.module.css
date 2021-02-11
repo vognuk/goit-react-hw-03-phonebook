@@ -1,0 +1,50 @@
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form {
+  display: block;
+  flex-wrap: wrap;
+}
+
+.label {
+  display: block;
+}
+
+.input {
+  display: block;
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: block;
+  width: 100px;
+  margin: 10px auto 10px auto;
+  padding: 5px;
+  font-size: 16px;
+  color: #413a3a;
+
+  background-color: #4493fc;
+  border-radius: 5px;
+  border-color: #413a3a;
+  outline: none;
+}
+
+.button:active {
+  background-color: #4493fc;
+
+  transform: scale(0.95);
+}
+
+button[disabled] {
+  background-color: #dfe3e7;
+}
+
+button[disabled]:hover {
+  background-color: #dfe3e7;
+}
